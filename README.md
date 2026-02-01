@@ -1,4 +1,4 @@
-#  SEMMA Methodology: Titanic Survival Prediction
+# 🚢 SEMMA Methodology: Titanic Survival Prediction
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge&logo=python&logoColor=white" alt="Python">
@@ -7,7 +7,7 @@
   <img src="https://img.shields.io/badge/Jupyter-Notebook-orange?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter">
 </p>
 
-##  Descripción
+## 📋 Descripción
 
 Aplicación completa de la **metodología SEMMA** (Sample, Explore, Modify, Model, Assess) desarrollada por SAS Institute, utilizando el dataset Titanic de Kaggle para predecir la supervivencia de pasajeros.
 
@@ -15,7 +15,7 @@ Este proyecto demuestra un flujo de trabajo profesional de Data Science, desde l
 
 ---
 
-##  Objetivo
+## 🎯 Objetivo
 
 Predecir qué pasajeros sobrevivieron al naufragio del RMS Titanic en 1912 utilizando técnicas de clasificación supervisada, aplicando rigurosamente las 5 fases de la metodología SEMMA.
 
@@ -46,6 +46,7 @@ PRO_ANALISIS/
 │       ├── random_forest_model.pkl
 │       ├── xgboost_model.pkl
 │       └── scaler.pkl
+├── 📄 Informe_Investigacion_Formativa_SEMMA.docx  # Informe académico
 └── 📄 README.md
 ```
 
@@ -95,10 +96,10 @@ PRO_ANALISIS/
 
 ---
 
-##  Visualizaciones Generadas
+## 📊 Visualizaciones Generadas
 
 <details>
-<summary> Click para ver las visualizaciones</summary>
+<summary>📈 Click para ver las visualizaciones</summary>
 
 ### Fase SAMPLE
 - **01_sample_distribution.png**: Distribución estratificada de clases (entrenamiento vs validación)
@@ -122,7 +123,7 @@ PRO_ANALISIS/
 
 ---
 
-##  Variables Más Importantes
+## 🔍 Variables Más Importantes
 
 Según el análisis de Random Forest:
 
@@ -134,7 +135,7 @@ Según el análisis de Random Forest:
 
 ---
 
-##  Ejecución
+## 🚀 Ejecución
 
 ### Requisitos
 ```bash
@@ -162,7 +163,7 @@ predictions = model.predict(X_new_scaled)
 
 ---
 
-##  Conclusiones
+## 📚 Conclusiones
 
 1. ✅ La metodología **SEMMA** proporciona un marco estructurado y reproducible para proyectos de ML.
 2. ✅ El **feature engineering** (Title, FamilySize, IsAlone) mejoró significativamente los modelos.
@@ -171,3 +172,22 @@ predictions = model.predict(X_new_scaled)
 5. ✅ Todos los modelos están listos para producción y exportados como archivos `.pkl`.
 
 ---
+
+## 📖 Referencias
+
+- [Titanic Dataset - Kaggle](https://www.kaggle.com/c/titanic)
+- [Metodología SEMMA - SAS Institute](https://www.sas.com/en_us/software/enterprise-miner.html)
+- [Scikit-learn Documentation](https://scikit-learn.org/stable/)
+- [XGBoost Documentation](https://xgboost.readthedocs.io/)
+
+---
+
+## 👨‍💻 Autor
+
+**Equipo Práctico de Analítica de Datos**
+
+---
+
+<p align="center">
+  <i>⭐ Si este proyecto te fue útil, considera darle una estrella!</i>
+</p>
