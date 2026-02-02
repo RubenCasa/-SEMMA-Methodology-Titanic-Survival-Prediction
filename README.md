@@ -85,12 +85,19 @@ PRO_ANALISIS/
 | **XGBoost** | 200 estimators, max_depth=5, learning_rate=0.1 |
 
 ### 5️⃣ ASSESS (Evaluación)
-| Modelo | Accuracy | Precision | Recall | F1-Score | AUC-ROC |
-|--------|----------|-----------|--------|----------|---------|
-| Logistic Regression | ~80% | ~76% | ~72% | ~74% | ~0.84 |
-| Random Forest | ~82% | ~80% | ~73% | ~76% | **~0.87** |
-| XGBoost | ~83% | ~78% | ~75% | ~77% | ~0.86 |
 
+| Modelo               | Accuracy | AUC-ROC | CV Mean |
+|----------------------|----------|---------|---------|
+| Logistic Regression  | 0.8156   | 0.8581  | 0.7964  |
+| Random Forest        | 0.7877   | 0.8411  | 0.8259  |
+| XGBoost              | 0.8156   | 0.8418  | 0.8203  |
+
+---
+
+### 🏆Mejor Modelo
+- **Modelo:** Logistic Regression  
+- **AUC-ROC:** 0.8581  
+- **Accuracy:** 0.8156
 
 ---
 
@@ -180,6 +187,7 @@ predictions = model.predict(X_new_scaled)
 <p align="center">
   <i>⭐ Si este proyecto te fue útil, considera darle una estrella!</i>
 </p>
+
 
 
 
