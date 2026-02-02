@@ -91,7 +91,6 @@ PRO_ANALISIS/
 | Random Forest | ~82% | ~80% | ~73% | ~76% | **~0.87** |
 | XGBoost | ~83% | ~78% | ~75% | ~77% | ~0.86 |
 
-> 🏆 **Mejor Modelo:** Random Forest con AUC-ROC de ~0.87
 
 ---
 
@@ -181,5 +180,6 @@ predictions = model.predict(X_new_scaled)
 <p align="center">
   <i>⭐ Si este proyecto te fue útil, considera darle una estrella!</i>
 </p>
+
 
 
