@@ -173,21 +173,13 @@ predictions = model.predict(X_new_scaled)
 
 ---
 
-## 📖 Referencias
+##  Autor
 
-- [Titanic Dataset - Kaggle](https://www.kaggle.com/c/titanic)
-- [Metodología SEMMA - SAS Institute](https://www.sas.com/en_us/software/enterprise-miner.html)
-- [Scikit-learn Documentation](https://scikit-learn.org/stable/)
-- [XGBoost Documentation](https://xgboost.readthedocs.io/)
-
----
-
-## 👨‍💻 Autor
-
-**Equipo Práctico de Analítica de Datos**
+**Equipo Práctico de Ciencias de Datos  UNACH**
 
 ---
 
 <p align="center">
   <i>⭐ Si este proyecto te fue útil, considera darle una estrella!</i>
 </p>
+
