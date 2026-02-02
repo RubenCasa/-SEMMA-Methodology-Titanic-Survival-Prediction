@@ -46,7 +46,6 @@ PRO_ANALISIS/
 │       ├── random_forest_model.pkl
 │       ├── xgboost_model.pkl
 │       └── scaler.pkl
-├── 📄 Informe_Investigacion_Formativa_SEMMA.docx  # Informe académico
 └── 📄 README.md
 ```
 
@@ -182,4 +181,5 @@ predictions = model.predict(X_new_scaled)
 <p align="center">
   <i>⭐ Si este proyecto te fue útil, considera darle una estrella!</i>
 </p>
+
 
