@@ -172,9 +172,8 @@ predictions = model.predict(X_new_scaled)
 
 1. ✅ La metodología **SEMMA** proporciona un marco estructurado y reproducible para proyectos de ML.
 2. ✅ El **feature engineering** (Title, FamilySize, IsAlone) mejoró significativamente los modelos.
-3. ✅ **Random Forest optimizado** logró el mejor rendimiento con AUC-ROC de ~0.87.
-4. ✅ Los resultados confirman patrones históricos: prioridad a mujeres, niños y clases altas.
-5. ✅ Todos los modelos están listos para producción y exportados como archivos `.pkl`.
+3. ✅ Los resultados confirman patrones históricos: prioridad a mujeres, niños y clases altas.
+4. ✅ Todos los modelos están listos para producción y exportados como archivos `.pkl`.
 
 ---
 
@@ -187,6 +186,7 @@ predictions = model.predict(X_new_scaled)
 <p align="center">
   <i>⭐ Si este proyecto te fue útil, considera darle una estrella!</i>
 </p>
+
 
 
 
